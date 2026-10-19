@@ -1,0 +1,10 @@
+[project]
+name = "env-diff"
+version = "1.0.0"
+description = "Keep .env and .env.example in sync; catch placeholder and secret mistakes before deploy"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+env-diff = "env_diff:main"
